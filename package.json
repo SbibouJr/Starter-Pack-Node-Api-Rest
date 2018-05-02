@@ -1,0 +1,24 @@
+{
+  "name": "starter-pack-node-api-rest",
+  "version": "0.0.1",
+  "description": "NodeJS API REST starter pack",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "./node_modules/.bin/pm2 start --no-daemon src/index.js --watch",
+    "build": "./node_modules/.bin/webpack --optimize-minimize"
+  },
+  "repository": {
+    "type": "git",
+    "url": "."
+  },
+  "author": "SbibouJr",
+  "license": "ISC",
+  "devDependencies": {
+    "pm2": "^2.10.3",
+    "webpack": "^3.6.0"
+  },
+  "dependencies": {
+    "lodash": "^4.17.10"
+  }
+}
